@@ -1,11 +1,9 @@
 package example;
 
-public class Visitor {
+public interface Visitor {
 
-	public static void main(String[] args) {
-		System.out.print("");
-		// TODO Auto-generated method stub
-
-	}
+	public double visit(Liquor liquorItem);
+	public double visit(Tobacco TobaccoItem);
+	public double visit(Necessity necessityItem);
 
 }
